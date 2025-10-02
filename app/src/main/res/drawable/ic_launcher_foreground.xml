@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Pokeball main circle (white background) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeColor="#2C3E50"
+        android:pathData="M54,22 C71.7,22 86,36.3 86,54 C86,71.7 71.7,86 54,86 C36.3,86 22,71.7 22,54 C22,36.3 36.3,22 54,22 Z" />
+    
+    <!-- Top half red -->
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M22,54 A32,32 0 0,1 86,54 Z" />
+    
+    <!-- Center band -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M22,50 L86,50 L86,58 L22,58 Z" />
+    
+    <!-- Center circle (button) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#2C3E50"
+        android:pathData="M54,46 C58.4,46 62,49.6 62,54 C62,58.4 58.4,62 54,62 C49.6,62 46,58.4 46,54 C46,49.6 49.6,46 54,46 Z" />
+    
+    <!-- Inner button -->
+    <path
+        android:fillColor="#ECF0F1"
+        android:pathData="M54,50 C56.2,50 58,51.8 58,54 C58,56.2 56.2,58 54,58 C51.8,58 50,56.2 50,54 C50,51.8 51.8,50 54,50 Z" />
+    
+    <!-- Highlight on pokeball -->
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M46,36 C49.3,36 52,38.7 52,42 C52,45.3 49.3,48 46,48 C42.7,48 40,45.3 40,42 C40,38.7 42.7,36 46,36 Z" />
+    
+    <!-- Small highlight -->
+    <path
+        android:fillColor="#60FFFFFF"
+        android:pathData="M48,38 C49.1,38 50,38.9 50,40 C50,41.1 49.1,42 48,42 C46.9,42 46,41.1 46,40 C46,38.9 46.9,38 48,38 Z" />
+        
+    <!-- Pokeball outer stroke -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeWidth="2"
+        android:strokeColor="#2C3E50"
+        android:pathData="M54,22 C71.7,22 86,36.3 86,54 C86,71.7 71.7,86 54,86 C36.3,86 22,71.7 22,54 C22,36.3 36.3,22 54,22 Z" />
+    
+</vector>

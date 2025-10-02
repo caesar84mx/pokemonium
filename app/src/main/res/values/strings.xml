@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pokemonium</string>
+    <string name="pokemon_list_title">Pokémonium</string>
+    <string name="pokemon_avatar_content_description">Pokémon %1$s avatar</string>
+    <string name="loading_text">Loading…</string>
+    <string name="loading_more_text">Loading more…</string>
+    <string name="no_items_found_text">No items found</string>
+    <string name="retry_button">Retry</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="error_titlel">Error</string>
+</resources>
